@@ -54,12 +54,12 @@ header {
     display: inline;
 }
 
-#logo {
+.logo {
     float: left;
     width: 15%;
 }
 
-#logo img {
+.logo img {
     vertical-align: middle;
 }
 
@@ -92,104 +92,104 @@ header nav a {
 
 /* Inizio Jumbotron */
 
- #jumbotron {
+#jumbotron {
     background-image: url('../img/jumbo.png');
     background-size: cover;
     background-position: center;
     min-height: 600px;
     height: 500px;
- }
+}
 
- #jumbotron .contenitore {
+#jumbotron .contenitore {
     max-width: 780px;
     text-align: center;
- }
+}
 
- #jumbotron h1 {
+#jumbotron h1 {
     padding-top: 100px;
     margin-bottom: 50px;
     font-size: 2.5em;
 
- }
+}
 
- #jumbotron p {
+#jumbotron p {
     margin-bottom: 30px;
     
- }
+}
 
- #jumbotron .contenitore-primo  {
+#jumbotron .contenitore-primo  {
     color: white;
 }
 
- .fas {
+.fas {
     margin-right: 10px;
- }
+}
 
- /*  primi 4 Contenitore jumbo */
+/*  primi 4 Contenitore jumbo */
 
 
- .cont {
+.cont {
     padding: 150px 0;
- }
+}
 
- .sinistra {
+.sinistra {
     float: left;
     width: 50%;
- }
+}
 
- .sinistra img {
+.sinistra img {
     width: 100%;
- }
+}
 
- .destra {
+.destra {
     float: right;
     width: 50%;
- }
+}
 
- .testo-destra {
+.testo-destra {
     padding: 0 120px;
- }
+}
 
- .destra h2 {
+.destra h2 {
     margin-bottom: 20px;
     font-size: 2.5em;
- }
+}
 
- .destra p {
+.destra p {
     line-height: 30px;
     font-size: 1.2em;
- }
+}
 
- .destra img {
+.destra img {
     width: 100%;
- }
+}
 
- .testo-sinistra {
+.testo-sinistra {
     padding: 0 120px;
- }
+}
 
- .sinistra h2 {
+.sinistra h2 {
     margin-bottom: 20px;
     font-size: 2.5em;
- }
+}
 
- .sinistra p {
+.sinistra p {
     line-height: 30px;
     font-size: 1.2em;
- }
+}
  
- /* Fine primi 4 contenitori jumbo */
+/* Fine primi 4 contenitori jumbo */
 
- .testo-sopra {
-     text-align: center;
- }
+.testo-sopra {
+    text-align: center;
+}
 
- .testo-sopra h2 {
+.testo-sopra h2 {
     font-size: 2.5em;
     margin-bottom: 40px;
- }
+}
  
- .testo-sopra p {
+.testo-sopra p {
     font-size: 1.2em;
     line-height: 30px;
 }
@@ -215,6 +215,98 @@ header nav a {
     color: white;
     font-size: 1.2em;
     padding: 15px 20px;
-  }
+}
 
   /* Finito ultimo contenitore jumbo */
+
+
+      /* Inizio Footer */
+
+footer {
+    height: 650px;
+    background-color: #23272a;
+    color: white;
+}
+  
+.cont-footer-alto {
+    height: 500px;
+    padding: 100px 0;
+    border-bottom: 1px solid #4A5882;
+}
+  
+.colonna {
+    width: calc(100% / 5);
+    height: 200px;
+    padding: 10px;
+    float: left;
+}
+  
+.cont-lingua {
+    padding-bottom: 10px;
+}
+
+.cont-footer-alto ul li {
+    list-style-type: none;
+}
+  
+.cont-footer-alto h2{
+    color: #7289da;
+    font-size: 31px;
+    margin-bottom: 30px;
+}
+  
+.cont-footer-alto h4{
+    color: #7289da;
+}
+  
+.bandiera {
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+  
+.lingua {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+}
+    
+.social a {
+    padding-right: 10px;
+}
+  
+.social i {
+    color: white;
+    font-size: 20px;
+}
+  
+
+.menu-footer{
+    line-height: 30px;
+}
+
+
+  /* Aggiunta Footer Basso */
+
+hr {
+    border: 1px solid #465379;
+}
+
+.cont-footer-basso {
+    padding-top: 30px;
+}
+
+.footer-logo{
+    float: left;
+}
+  
+.footer-bottone{
+    float: right;
+}
+  
+.bottone.footer-bottone{
+    padding: 10px 10px;
+    background-color: #8ea1e1;
+    color: white;
+}
