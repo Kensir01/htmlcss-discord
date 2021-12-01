@@ -91,12 +91,13 @@ header nav a {
 /* Fine Header */
 
 /* Inizio Jumbotron */
+
  #jumbotron {
     background-image: url('../img/jumbo.png');
     background-size: cover;
     background-position: center;
-    color: white;
     min-height: 600px;
+    height: 500px;
  }
 
  #jumbotron .contenitore {
@@ -108,12 +109,53 @@ header nav a {
     padding-top: 100px;
     margin-bottom: 50px;
     font-size: 2.5em;
+
  }
 
  #jumbotron p {
     margin-bottom: 30px;
+    
  }
+
+ #jumbotron .contenitore-primo  {
+    color: white;
+}
 
  .fas {
     margin-right: 10px;
+ }
+
+
+
+
+ .cont {
+    padding: 150px 0;
+ }
+
+ .sinistra {
+    float: left;
+    width: 50%;
+ }
+
+ .sinistra img {
+    width: 100%;
+ }
+
+ .destra {
+    float: right;
+    width: 50%;
+ }
+
+ .testo-destra {
+    padding: 0 120px;
+ }
+
+ .destra h2 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+ }
+
+ .destra p {
+    line-height: 30px;
+    font-size: 1.3em;
  }
