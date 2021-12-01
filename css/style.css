@@ -1,0 +1,28 @@
+header {
+    background-color: blue;
+    height: 100px;
+}
+
+#logo {
+    float: left;
+    width: 15%;
+}
+
+header nav {
+    float: left;
+    width: 70%;
+}
+
+header nav ul {
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+#login {
+    float: right;
+    width: 15%;
+}
+
